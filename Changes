@@ -1,0 +1,6 @@
+Revision history for Perl extension PerlIO::via::Skip.
+
+0.01  Fri May  6 18:47:35 2005
+	- original version; created by h2xs 1.23 with options
+		-AX -n PerlIO::via::Skip
+
