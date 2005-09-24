@@ -7,7 +7,7 @@ use Data::Dumper;
 
 require Exporter;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 use constant DEFAULTS  => ( start          =>  undef  , 
                             end            =>  undef  , 
 			    maxlines       =>  undef  ,

@@ -1,15 +1,16 @@
+Build.PL
 Changes
 lib/PerlIO/via/Skip.pm
-Makefile.PL
 MANIFEST			This list of files
-META.yml
 README
 t/binmode.t
 t/config.t
+t/distribution
 t/dot.t
 t/main.t
 t/mode.t
 t/NOTE
+t/pod-coverage.t
 t/pod.t
 t/r01_general.t
 t/r02_eol.t
@@ -28,3 +29,5 @@ t/w04_maxlines.t
 t/w05_patterns.t
 t/w06_blanklines.t
 t/w07_comments.t
+META.yml
+Makefile.PL
