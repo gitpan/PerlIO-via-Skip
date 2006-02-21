@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name: PerlIO-via-Skip
-version: 0.02
+version: 0.03
 author:
   - Ioannis Tambouras <ioannis@yahoo.com>
 abstract: PerlIO layer for skipping lines
@@ -9,10 +9,11 @@ requires:
   perl: 5.6
 recommends:
   Test::Distribution: 1.22
+  Test::Exception: 0
   Test::Pod: 1.20
   Test::Pod::Coverage: 1.06
 provides:
   PerlIO::via::Skip:
     file: lib/PerlIO/via/Skip.pm
-    version: 0.02
+    version: 0.03
 generated_by: Module::Build version 0.2611

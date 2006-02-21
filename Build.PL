@@ -6,6 +6,7 @@ my $b= Module::Build->new(
 	recommends         => { 'Test::Pod'           => '1.20',
 			        'Test::Pod::Coverage' => '1.06',
 			        'Test::Distribution'  => '1.22',
+				'Test::Exception'     => 0,
 	                      },
 	license            => 'perl',
 	create_makefile_pl=> 'traditional',

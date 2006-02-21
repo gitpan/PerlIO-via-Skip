@@ -1,5 +1,8 @@
 Revision history for Perl extension PerlIO::via::Skip.
 
+0.03  Mon Feb 20 19:07:18 2006
+	- Minor changes to test files
+	
 0.02  Sat Sep 24 01:54:57 2005
         - Packaging changes to keep CPANTS happy.
         - Also builds with Module::Build.

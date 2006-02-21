@@ -1,5 +1,4 @@
 use Test::More qw(no_plan);
-use Test::Exception;
 use PerlIO::via::Skip;
 
 my $Data   = do { local $/=undef ; <DATA> };
