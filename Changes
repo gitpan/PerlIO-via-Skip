@@ -1,5 +1,13 @@
 Revision history for Perl extension PerlIO::via::Skip.
 
+0.05  Sat Aug 28 05:05:11 2011
+	   - Regural upkeep: changed installer, changed and added tests
+
+0.04  Thu Jul 24 19:01:53 2008
+       - Fixed Perl version ( to 5.006 )
+       - Fixed License
+       - META file to current specs
+
 0.03  Mon Feb 20 19:07:18 2006
 	- Minor changes to test files
 	

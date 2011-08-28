@@ -13,9 +13,8 @@ sub work ($$;$$) {
 	$a .= <$i>    for 1..($count||1) ;
 	$.;
 }
-
-is work( apple =>  melon  => 1        ) ,  1 ;
 is work( apple =>  melon  => 2        ) ,  2 ;
+is work( apple =>  melon  => 1        ) ,  1 ;
 is work( apple =>  melon  => 3        ) ,  3 ;
 is work( apple =>  melon  => 2  => 1  ) ,  2 ;
 is work( apple =>  melon  => 2  => 2  ) ,  1 ;

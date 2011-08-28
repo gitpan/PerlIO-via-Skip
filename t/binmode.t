@@ -3,7 +3,6 @@ use PerlIO::via::Skip;
 
 my $Data = do { local $/=undef ; <DATA> };
 
-
 sub work (;$) {
         my ($maxlines) = @_ ;
 	$ENV{ viaSKIP } = { maxlines=> $maxlines } ;

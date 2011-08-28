@@ -1,13 +1,13 @@
 package PerlIO::via::Skip;
 
-use 5.008004;
+#use 5.008004;
 use strict;
 use warnings;
-use Data::Dumper;
+#use Data::Dumper;
 
 require Exporter;
 
-our $VERSION = '0.03';
+our $VERSION = '0.05';
 use constant DEFAULTS  => ( start          =>  undef  , 
                             end            =>  undef  , 
 			    maxlines       =>  undef  ,
@@ -181,17 +181,17 @@ None by default.
 =head1 SEE ALSO
 
 Consult the documentation of the range operator,
-when in scalar context, for a description on how 
-the bipolar vibrator operates. Please note, however,
+when in scalar context for a description on how 
+the bipolar vibrator operates. Note, however,
 that in this implementation the bipolar is designed
 for only full one cycle. (Will need to change
-ther range operator from a a m?? regex to a m// regex
-if you need infine cycles.)
+the range operator from a a m?? regex to a m// regex
+if you need infinite cycles.)
 
 
 =head1 AUTHOR
 
-Ioannis Tambouras E<lt>ioannis@earthlink.net>
+Ioannis Tambouras E<lt>ioannis@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 

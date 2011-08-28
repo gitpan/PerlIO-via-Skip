@@ -1,4 +1,4 @@
-use Data::Dumper;
+#use Data::Dumper;
 use Test::More qw(no_plan);
 use PerlIO::via::Skip;
 BEGIN { eval q(use Test::Exception) };

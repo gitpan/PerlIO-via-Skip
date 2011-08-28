@@ -29,9 +29,19 @@ DEPENDENCIES
 
 There are no required dependencies. These Test modules, however,
 are recomended during testing:
-Test::Pod            1.20
-Test::Pod::Coverage  1.06
-Test::Distribution   1.22
+
+Test::Pod::Coverage
+Test::Pod
+Test::Pod::Coverage
+Test::HasVersion
+Test::CPAN::Meta
+Test::Exception
+Test::Distribution
+Test::Dependencies
+Test::MinimumVersion
+Test::Strict
+Test::Spelling
+Test::Exception
                     
 
 COPYRIGHT AND LICENCE
