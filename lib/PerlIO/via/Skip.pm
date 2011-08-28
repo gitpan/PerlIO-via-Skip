@@ -7,7 +7,7 @@ use warnings;
 
 require Exporter;
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 use constant DEFAULTS  => ( start          =>  undef  , 
                             end            =>  undef  , 
 			    maxlines       =>  undef  ,

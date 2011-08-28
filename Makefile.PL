@@ -5,6 +5,7 @@ use inc::Module::Install;
 name           'PerlIO-via-Skip'                ;
 license        'perl'                           ;
 all_from       'lib/PerlIO/via/Skip.pm'         ;
+author         'Ioannis Tambouras <ioannis@cpan.org>';
 abstract_from  'lib/PerlIO/via/Skip.pm'         ;
 no_index       'directory'   => 'examples'      ;
 

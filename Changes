@@ -1,7 +1,10 @@
 Revision history for Perl extension PerlIO::via::Skip.
 
+0.06  Sat Aug 28 08:08:18 2011
+	   - added author tag in Makefile.PL
+
 0.05  Sat Aug 28 05:05:11 2011
-	   - Regural upkeep: changed installer, changed and added tests
+	   - Regular upkeep: changed installer, changed and added tests
 
 0.04  Thu Jul 24 19:01:53 2008
        - Fixed Perl version ( to 5.006 )
